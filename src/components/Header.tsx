@@ -15,9 +15,9 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Website Logo and Name */}
-          <div className="text-3xl font-extrabold text-purple-600 tracking-wide">
+          <div className="text-3xl font-extrabold text-purple-500 cursor-pointer hover:text-purple-900 transition duration-300 tracking-wide">
             <span>Glow More</span>
-            <span className="  text-pink-600 font-semibold flex items-center justify-center">With us
+            <span className="  text-pink-600 cursor-pointer hover:text-pink-900 transition duration-300 font-semibold flex items-center justify-center">With us
             <span className="mr-2 text-3xl text-red-600 flex grid-flow-row">&#10084;</span>
             </span>
             
@@ -26,17 +26,17 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             <Link href="/" passHref>
-              <span className="hover:text-pink-600 transition duration-300 cursor-pointer">
+              <span className="hover:text-pink-600 font-semibold transition duration-300 cursor-pointer">
                 Home
               </span>
             </Link>
             <Link href="/blogs" passHref>
-              <span className="hover:text-pink-600 transition duration-300 cursor-pointer">
+              <span className="hover:text-pink-600 font-semibold transition duration-300 cursor-pointer">
                 Blogs
               </span>
             </Link>
             <Link href="/contact-us" passHref>
-              <span className="hover:text-pink-600 transition duration-300 cursor-pointer">
+              <span className="hover:text-pink-600 font-semibold transition duration-300 cursor-pointer">
                 Contact Us
               </span>
             </Link>
